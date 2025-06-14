@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fabrica de Gorras VC</title>
+  <meta name="description" content="Fábrica de gorras personalizadas al por mayor y al detal. Diseños únicos para empresas, marcas y uso personal. Calidad, rapidez y precios competitivos. ¡Crea tu gorra ideal con nosotros!">
+  <meta name="keywords" content="fábrica de gorras, fabrica de gorras medellin, gorras medellin, gorras personalizadas, gorras al por mayor, gorras al detal, gorras empresariales, diseño de gorras">
+  <meta name="author" content="JEFFTECH - DISEÑO WEB">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans text-gray-800 bg-gray-100">
+
+  <!-- Header -->
+  <header class="bg-zinc-950 text-white py-4 shadow-sm">
+    <div class="container mx-auto px-4 flex justify-between items-center flex-wrap">
+
+      <!-- Logo y Nombre -->
+      <div class="flex items-center space-x-3 mb-2 sm:mb-0">
+        
+        <!-- Icono circular personalizado -->
+        <div class="bg-amber-400 rounded-full p-2">
+          <img src="images/iconogorra.png" alt="Mi Icono" class="h-12 w-12 object-contain" />
+        </div>
+
+        <!-- Texto -->
+        <div>
+          <h1 class="text-xl font-bold leading-tight">VC CAPS</h1>
+          <p class="text-sm text-white-500">FABRICA DE GORRAS</p>
+        </div>
+      </div>
+
+      <!-- Navegación -->
+      <nav class="space-x-4 text-sm sm:text-base">
+        <a href="#catalogo" class="hover:text-yellow-600">Catálogo</a>
+        <a href="#mayorista" class="hover:text-yellow-600">Mayoristas</a>
+        <a href="#contacto" class="hover:text-yellow-600">Contacto</a>
+      </nav>
+
+    </div>
+  </header>
+
+
+  <section class="bg-gradient-to-r from-neutral-950 via-neutral-950 to-neutral-950 py-16 px-6 md:px-12">
+    <div class="container mx-auto flex flex-col-reverse md:flex-row items-center justify-between gap-10">
+    
+      <!-- Texto -->
+      <div class="text-center md:text-left max-w-xl">
+        <h1 class="titulo-neon mb-4">
+          Estilo que <span class="text-stone-50">impacta</span>.<br />
+          Calidad que <span class="resaltado-verde">dura</span>.
+        </h1>
+        <p class="text-stone-50 mb-6 text-lg font-medium">
+          Descubre nuestra increíble colección de gorras. Diseños exclusivos, fabricación propia y ventas al por menor y mayor. ¡Tu estilo, nuestra pasión!
+        </p>
+
+        <div class="flex flex-col sm:flex-row justify-center md:justify-start gap-4">
+          <!-- Botón Ver Catálogo -->
+          <a href="#catalogo" class="btn-neon">
+            Ver Catálogo →
+          </a>
+
+          <!-- Botón Contactar por WhatsApp -->
+          <a
+            href="https://wa.me/573008150319?text=Hola%2C%20estoy%20interesado%20en%20las%20Gorras"
+            class="btn-neon-outline"
+            target="_blank"
+          >
+            💬 Ventas al por Mayor
+          </a>
+        </div>
+      </div>
+
+      <!-- Imagen -->
+      <div class="relative">
+        <img src="./images/gorrauno.png" alt="Guatapé" class="rounded-3xl shadow-lg w-full max-w-md float" />
+        <div class="absolute bottom-[-20px] left-[-20px] bg-yellow-400 rounded-full p-3 shadow-xl">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.518 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.977 2.89a1 1 0 00-.364 1.118l1.518 4.674c.3.921-.755 1.688-1.54 1.118l-3.978-2.89a1 1 0 00-1.175 0l-3.978 2.89c-.784.57-1.838-.197-1.539-1.118l1.518-4.674a1 1 0 00-.364-1.118L2.42 10.1c-.783-.57-.38-1.81.588-1.81h4.915a1 1 0 00.95-.69l1.518-4.674z"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="relative py-16 px-6 md:px-12 overflow-hidden">
+    <!-- Slider de fondo -->
+    <div id="slider-background" class="absolute inset-0 z-0 transition-opacity duration-1000 bg-cover bg-center"></div>
+
+    <!-- Contenedor principal con z-20 -->
+    <div class="relative z-20">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold text-amber-400 mb-2">¿Por qué elegirnos?</h2>
+        <p class="text-stone-50 text-lg">Somos Fabricantes de Alta Calidad</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <!-- Tarjeta 1 -->
+        <div class="bg-white rounded-2xl shadow-md p-8 text-center hover:shadow-lg transition">
+          <div class="flex items-center justify-center mb-4">
+            <div class="bg-gradient-to-r from-amber-400 to-amber-400 p-4 rounded-full">
+              <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3 20h18M4 4h16M4 8h16M4 12h16M4 16h16"/>
+              </svg>
+            </div>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">Calidad Premium</h3>
+          <p class="text-gray-600 text-sm">Utilizamos los mejores materiales para gorras duraderas y cómodas.</p>
+        </div>
+
+        <!-- Tarjeta 2 -->
+        <div class="bg-white rounded-2xl shadow-md p-8 text-center hover:shadow-lg transition">
+          <div class="flex items-center justify-center mb-4">
+            <div class="bg-gradient-to-r from-amber-400 to-amber-400 p-4 rounded-full">
+              <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3 3v18h18V3H3zm4 14l4-8 4 8H7z"/>
+              </svg>
+            </div>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">Diseños Exclusivos</h3>
+          <p class="text-gray-600 text-sm">Personalizamos gorras para uso personal o empresarial.</p>
+        </div>
+
+        <!-- Tarjeta 3 -->
+        <div class="bg-white rounded-2xl shadow-md p-8 text-center hover:shadow-lg transition">
+          <div class="flex items-center justify-center mb-4">
+            <div class="bg-gradient-to-r from-amber-400 to-amber-400 p-4 rounded-full">
+              <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 2L2 21h20L12 2z"/>
+              </svg>
+            </div>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">Envíos a Nivel Nacional</h3>
+          <p class="text-gray-600 text-sm">Llevamos tus gorras favoritas a cualquier rincón del país.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- Catálogo -->
+  <section id="catalogo" class="py-10 bg-neutral-950">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-6 text-center text-stone-50">NUESTRO CATÁLOGO</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <!-- Gorra 1 -->
+        <div class="bg-white shadow-xl rounded-3xl overflow-hidden max-w-sm">
+          <!-- Imagen con etiqueta flotante -->
+          <div class="relative">
+            <img src="./images/gorraauno.png" alt="Lote 1" class="w-full h-48 object-cover">
+          <div class="absolute top-2 right-2 bg-stone-950 text-white text-sm font-semibold px-3 py-1 rounded-full shadow-md">
+            Disponible
+          </div>
+        </div>
+
+        <!-- Contenido -->
+        <div class="p-5">
+          <h3 class="text-2xl font-bold text-gray-800 mb-1">Gorra Urbana Clásica</h3>
+          
+          <p class="text-gray-600 mb-4">
+            
+          </p>
+
+          <!-- Lista de beneficios -->
+          <ul class="text-sm text-gray-700 space-y-1 mb-4">
+            <li class="flex items-center"><span class="text-green-500 mr-2">✅</span> Disponible en: 5 y 6 cascos</li>
+            <li class="flex items-center"><span class="text-green-500 mr-2">📏</span> Tallas: S M L </li>
+            <li class="flex items-center"><span class="text-green-500 mr-2">🧢</span> Material: Algodón</li>
+          </ul>
+
+          <!-- Botón de WhatsApp -->
+          <a href="https://wa.me/573008150319" target="_blank" class="w-full inline-block text-center bg-gradient-to-r from-amber-500 to-amber-700 text-white font-semibold py-2 rounded-xl shadow hover:opacity-90 transition">
+            Consultar por WhatsApp
+          </a>
+        </div>        
+      </div>
+
+        <!-- Gorra 2 -->
+        <div class="bg-white shadow-xl rounded-3xl overflow-hidden max-w-sm">
+          <!-- Imagen con etiqueta flotante -->
+          <div class="relative">
+            <img src="./images/gorrados.png" alt="Lote 1" class="w-full h-48 object-cover">
+          <div class="absolute top-2 right-2 bg-stone-950 text-white text-sm font-semibold px-3 py-1 rounded-full shadow-md">
+            Disponible
+          </div>
+        </div>
+
+        <!-- Contenido -->
+        <div class="p-5">
+          <h3 class="text-2xl font-bold text-gray-800 mb-1">Gorra Urbana Clásica</h3>
+          
+          <p class="text-gray-600 mb-4">
+            
+          </p>
+
+          <!-- Lista de beneficios -->
+          <ul class="text-sm text-gray-700 space-y-1 mb-4">
+            <li class="flex items-center"><span class="text-green-500 mr-2">✅</span> Disponible en: 5 y 6 cascos</li>
+            <li class="flex items-center"><span class="text-green-500 mr-2">📏</span> Tallas: S M L </li>
+            <li class="flex items-center"><span class="text-green-500 mr-2">🧢</span> Material: Algodón</li>
+          </ul>
+
+          <!-- Botón de WhatsApp -->
+          <a href="https://wa.me/573008150319" target="_blank" class="w-full inline-block text-center bg-gradient-to-r from-amber-500 to-amber-700 text-white font-semibold py-2 rounded-xl shadow hover:opacity-90 transition">
+            Consultar por WhatsApp
+          </a>
+        </div>        
+      </div>
+
+        <!-- Gorra 3 -->
+        <div class="bg-white shadow-xl rounded-3xl overflow-hidden max-w-sm">
+          <!-- Imagen con etiqueta flotante -->
+          <div class="relative">
+            <img src="./images/gorratres.png" alt="Lote 1" class="w-full h-48 object-cover">
+          <div class="absolute top-2 right-2 bg-stone-950 text-white text-sm font-semibold px-3 py-1 rounded-full shadow-md">
+            Disponible
+          </div>
+        </div>
+
+        <!-- Contenido -->
+        <div class="p-5">
+          <h3 class="text-2xl font-bold text-gray-800 mb-1">Gorra Urbana Clásica</h3>
+          
+          <p class="text-gray-600 mb-4">
+           
+          </p>
+
+          <!-- Lista de beneficios -->
+          <ul class="text-sm text-gray-700 space-y-1 mb-4">
+            <li class="flex items-center"><span class="text-green-500 mr-2">✅</span> Disponible en: 5 y 6 cascos</li>
+            <li class="flex items-center"><span class="text-green-500 mr-2">📏</span> Tallas: S M L </li>
+            <li class="flex items-center"><span class="text-green-500 mr-2">🧢</span> Material: Algodón</li>
+          </ul>
+
+          <!-- Botón de WhatsApp -->
+          <a href="https://wa.me/573008150319" target="_blank" class="w-full inline-block text-center bg-gradient-to-r from-amber-500 to-amber-700 text-white font-semibold py-2 rounded-xl shadow hover:opacity-90 transition">
+            Consultar por WhatsApp
+          </a>
+        </div>        
+      </div>
+
+        <!-- Gorra 4 -->
+        <div class="bg-white shadow-xl rounded-3xl overflow-hidden max-w-sm">
+          <!-- Imagen con etiqueta flotante -->
+          <div class="relative">
+            <img src="./images/gorracuatro.png" alt="Lote 1" class="w-full h-48 object-cover">
+          <div class="absolute top-2 right-2 bg-stone-950 text-white text-sm font-semibold px-3 py-1 rounded-full shadow-md">
+            Disponible
+          </div>
+        </div>
+
+        <!-- Contenido -->
+        <div class="p-5">
+          <h3 class="text-2xl font-bold text-gray-800 mb-1">Gorra Urbana Clásica</h3>
+          
+          <p class="text-gray-600 mb-4">
+            
+          </p>
+
+          <!-- Lista de beneficios -->
+          <ul class="text-sm text-gray-700 space-y-1 mb-4">
+            <li class="flex items-center"><span class="text-green-500 mr-2">✅</span> Disponible en: 5 y 6 cascos</li>
+            <li class="flex items-center"><span class="text-green-500 mr-2">📏</span> Tallas: S M L </li>
+            <li class="flex items-center"><span class="text-green-500 mr-2">🧢</span> Material: Algodón</li>
+          </ul>
+
+          <!-- Botón de WhatsApp -->
+          <a href="https://wa.me/573008150319" target="_blank" class="w-full inline-block text-center bg-gradient-to-r from-amber-500 to-amber-700 text-white font-semibold py-2 rounded-xl shadow hover:opacity-90 transition">
+            Consultar por WhatsApp
+          </a>
+        </div>        
+      </div>
+
+        <!-- Gorra 5 -->
+        <div class="bg-white shadow-xl rounded-3xl overflow-hidden max-w-sm">
+          <!-- Imagen con etiqueta flotante -->
+          <div class="relative">
+            <img src="./images/gorracinco.png" alt="Lote 1" class="w-full h-48 object-cover">
+          <div class="absolute top-2 right-2 bg-stone-950 text-white text-sm font-semibold px-3 py-1 rounded-full shadow-md">
+            Disponible
+          </div>
+        </div>
+
+        <!-- Contenido -->
+        <div class="p-5">
+          <h3 class="text-2xl font-bold text-gray-800 mb-1">Gorra Urbana Clásica</h3>
+          
+          <p class="text-gray-600 mb-4">
+           
+          </p>
+
+          <!-- Lista de beneficios -->
+          <ul class="text-sm text-gray-700 space-y-1 mb-4">
+            <li class="flex items-center"><span class="text-green-500 mr-2">✅</span> Disponible en: 5 y 6 cascos</li>
+            <li class="flex items-center"><span class="text-green-500 mr-2">📏</span> Tallas: S M L </li>
+            <li class="flex items-center"><span class="text-green-500 mr-2">🧢</span> Material: Algodón</li>
+          </ul>
+
+          <!-- Botón de WhatsApp -->
+          <a href="https://wa.me/573008150319" target="_blank" class="w-full inline-block text-center bg-gradient-to-r from-amber-500 to-amber-700 text-white font-semibold py-2 rounded-xl shadow hover:opacity-90 transition">
+            Consultar por WhatsApp
+          </a>
+        </div>        
+      </div>
+
+        <!-- Gorra 6 -->
+        <div class="bg-white shadow-xl rounded-3xl overflow-hidden max-w-sm">
+          <!-- Imagen con etiqueta flotante -->
+          <div class="relative">
+            <img src="./images/gorraseis.png" alt="Lote 1" class="w-full h-48 object-cover">
+          <div class="absolute top-2 right-2 bg-stone-950 text-white text-sm font-semibold px-3 py-1 rounded-full shadow-md">
+            Disponible
+          </div>
+        </div>
+
+        <!-- Contenido -->
+        <div class="p-5">
+          <h3 class="text-2xl font-bold text-gray-800 mb-1">Gorra Urbana Clásica</h3>
+          
+          <p class="text-gray-600 mb-4">
+           
+          </p>
+
+          <!-- Lista de beneficios -->
+          <ul class="text-sm text-gray-700 space-y-1 mb-4">
+            <li class="flex items-center"><span class="text-green-500 mr-2">✅</span> Disponible en: 5 y 6 cascos</li>
+            <li class="flex items-center"><span class="text-green-500 mr-2">📏</span> Tallas: S M L </li>
+            <li class="flex items-center"><span class="text-green-500 mr-2">🧢</span> Material: Algodón</li>
+          </ul>
+
+          <!-- Botón de WhatsApp -->
+          <a href="https://wa.me/573008150319" target="_blank" class="w-full inline-block text-center bg-gradient-to-r from-amber-500 to-amber-700 text-white font-semibold py-2 rounded-xl shadow hover:opacity-90 transition">
+            Consultar por WhatsApp
+          </a>
+        </div>        
+      </div>
+
+      
+
+        
+      
+    </div>
+  </section>
+
+  <section class="bg-gradient-to-b from-amber-500 via-amber-600 to-amber-700 text-white py-16 px-6 text-center" id="mayorista">
+    <!-- Ícono de rayo -->
+    <div class="flex justify-center mb-4">
+      <img src="./images/iconogorra.png" alt="Logo" class="h-24 w-24 object-contain" />
+    </div>
+
+    <!-- Título -->
+    <h2 class="text-3xl md:text-4xl font-extrabold tracking-wide drop-shadow-md">
+      VENTAS AL POR MAYOR
+    </h2>
+
+    <!-- Texto descriptivo -->
+    <p class="mt-4 max-w-2xl mx-auto text-lg text-white/90">
+      ¿Tienes un negocio y quieres ofrecer nuestras gorras? Ofrecemos precios especiales para mayoristas, catálogos exclusivos y el respaldo de nuestra fábrica.
+      ¡Impulsa tu negocio con VC CAPS!
+    </p>
+
+    <!-- Botón -->
+    <div class="mt-8">
+      <a
+        href="https://wa.me/573008150319?text=Hola%2C%20estoy%20interesado%20en%20comprar%20al%20por%20mayor"
+        target="_blank"
+        class="inline-flex items-center gap-2 bg-yellow-400 text-black font-semibold text-lg px-6 py-3 rounded-lg shadow-lg hover:bg-yellow-300 transition duration-300">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5V4H2v16h5m10 0v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z" />
+        </svg>
+        Contactar para Mayoristas
+      </a>
+      </div>
+      <!-- Video -->
+      <div class="mt-10 flex justify-center">
+        <video
+          src="./videos/videoguno.mp4"
+          autoplay
+          muted
+          loop
+          playsinline
+          class="rounded-2xl shadow-lg w-full max-w-3xl object-cover max-h-[500px]">
+          Tu navegador no soporta el video HTML5.
+        </video>
+      </div>
+  </section>
+
+  
+  <!-- Contacto -->
+  <section id="contacto" class="py-16 bg-gradient-to-b from-stone-950 to-stone-950 text-white">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl sm:text-4xl font-extrabold mb-4">PONTE EN CONTACTO</h2>
+      <p class="text-lg mb-10">Estamos listos para atenderte y ayudarte</p>
+
+      <div class="grid gap-6 sm:grid-cols-3 max-w-5xl mx-auto">
+      <!-- Teléfono -->
+        <div class="bg-white/10 backdrop-blur-md rounded-xl p-6 border border-white/20">
+          <div class="flex flex-col items-center">
+            <div class="bg-white/20 rounded-full p-4 mb-4">
+              <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3 5h2l3.6 7.59-1.35 2.45A1 1 0 008 17h11v-2H9.42a.5.5 0 01-.41-.23L9 14.62l1.1-2h7.45a1 1 0 00.93-.63l3.24-7.24A1 1 0 0020 3H5.21L4.27 1H1v2h2l3.6 7.59L5.25 11H3V5z" />
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold">Llámanos</h3>
+            <p class="mt-2">+57 300 8150319</p>
+          </div>
+        </div>
+
+        <!-- WhatsApp -->
+        <a href="https://wa.me/573008150319" target="_blank" rel="noopener noreferrer">
+          <div class="bg-white/10 backdrop-blur-md rounded-xl p-6 border border-white/20 hover:bg-white/20 transition-colors duration-300">
+            <div class="flex flex-col items-center">
+              <div class="bg-white/20 rounded-full p-4 mb-4">
+                <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M21 15.42A9 9 0 1112.58 3h0a9 9 0 018.42 12.42zM8 12l1.41 1.41a1 1 0 001.42 0L15 9" />
+                </svg>
+              </div>
+              <h3 class="text-xl font-bold">WhatsApp</h3>
+              <p class="mt-2">Chatea con nosotros</p>
+            </div>
+          </div>
+        </a>
+
+
+        <!-- Email -->
+        <div class="bg-white/10 backdrop-blur-md rounded-xl p-6 border border-white/20">
+          <div class="flex flex-col items-center">
+            <div class="bg-white/20 rounded-full p-4 mb-4">
+              <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4 4h16v16H4z" />
+                <path stroke-linecap="round" stroke-linejoin="round" d="M22 6l-10 7L2 6" />
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold">Email</h3>
+            <p class="mt-2">escobarcorre123@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="bg-neutral-950 text-white py-12">
+    <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
+    
+      <!-- Columna 1 -->
+      <div>
+        <div class="flex items-center space-x-3 mb-4">
+          <div class="bg-amber-500 text-white rounded-full p-2">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 9.75V20a1 1 0 001 1h5.25a.75.75 0 00.75-.75V15a.75.75 0 01.75-.75h3a.75.75 0 01.75.75v5.25c0 .414.336.75.75.75H20a1 1 0 001-1V9.75a.75.75 0 00-.222-.528l-8-8a.75.75 0 00-1.056 0l-8 8a.75.75 0 00-.222.528z" />
+            </svg>
+          </div>
+          <h2 class="text-lg font-bold">VC CAPS</h2>
+        </div>
+        <p class="text-gray-300">Fábrica y distribuidora de gorras con estilo y calidad. Ventas al por menor y mayor.</p>
+      </div>
+
+      <!-- Columna 2 -->
+      <div>
+        <h3 class="text-lg font-bold mb-4">Servicios</h3>
+        <ul class="space-y-2 text-gray-300">
+          <li>Somos fabricantes</li>
+          <li>Ventas al menor y al por mayor</li>
+          <li>Envio a domicilio</li>
+        </ul>
+      </div>
+
+      <!-- Columna 3 -->
+      <div>
+        <h3 class="text-lg font-bold mb-4">Ubicación</h3>
+        <p class="text-gray-300">Antioquia</p>
+        <p class="text-gray-300">Colombia</p>
+      </div>
+
+    </div>
+
+    <!-- Línea divisoria -->
+    <div class="border-t border-gray-700 my-8"></div>
+
+    <!-- Créditos -->
+    <div class="text-center text-gray-400 text-sm">
+      © 2025 Fabrica VC Caps. Todos los derechos reservados. Hecho con
+      <span class="text-red-500">💙</span> Por 
+      <a href="https://jefftech.store" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:underline">JEFFTECH</a>.
+      
+    </div>
+  </footer>
+
+
+  <!-- JavaScript -->
+  <script>
+    document.getElementById("formularioContacto").addEventListener("submit", function (e) {
+      e.preventDefault();
+      alert("Mensaje enviado. Pronto nos pondremos en contacto contigo.");
+      this.reset();
+    });
+  </script>
+
+  <!-- Botón flotante de WhatsApp -->
+<a
+  href="https://wa.me/573008150319?text=Hola%2C%20estoy%20interesado%20en%20las%20Gorras"
+  class="fixed bottom-4 right-4 bg-green-500 hover:bg-green-600 text-white p-3 rounded-full shadow-lg z-50"
+  target="_blank"
+  aria-label="Chatea con nosotros en WhatsApp"
+>
+  <!-- Icono de WhatsApp -->
+  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+    <path d="M12 0C5.373 0 0 5.372 0 12a11.944 11.944 0 001.671 6.02L0 24l6.222-1.642A11.958 11.958 0 0012 24c6.627 0 12-5.372 12-12S18.627 0 12 0zm0 22.006a9.955 9.955 0 01-5.095-1.411l-.364-.218-3.686.973.985-3.596-.238-.371a9.967 9.967 0 01-1.602-5.29C2 6.48 6.48 2 12 2s10 4.48 10 10-4.48 10.006-10 10.006z"/>
+    <path d="M17.472 14.382l-2.59-.742a.612.612 0 00-.603.157l-.92.939a7.285 7.285 0 01-3.388-3.388l.939-.92a.611.611 0 00.157-.603l-.742-2.59a.615.615 0 00-.58-.42H7.758a.615.615 0 00-.615.615c0 5.268 4.278 9.546 9.546 9.546a.615.615 0 00.615-.615v-2.115a.615.615 0 00-.42-.58z"/>
+  </svg>
+</a>
+
+<style>
+@keyframes float {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
+
+.float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.titulo-neon {
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #FFCA28, #ffffff, #FFCA28);
+  -webkit-background-clip: text;
+  color: transparent;
+  text-shadow:
+    0 0 5px #FFCA28,
+    0 0 10px #FFCA28,
+    0 0 20px #FFCA28,
+    0 0 40px #FFCA28;
+  line-height: 1.2;
+}
+
+.resaltado-verde {
+  color: #FFCA28;
+  font-weight: 900;
+  text-shadow:
+    0 0 5px #FFCA28,
+    0 0 10px #FFCA28,
+    0 0 20px #FFCA28;
+}
+
+.btn-neon {
+  position: relative;
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(90deg, #FFCA28, #FFCA28);
+  border: none;
+  border-radius: 0.75rem;
+  text-shadow: 0 0 5px #fff;
+  box-shadow:
+    0 0 10px #FFCA28,
+    0 0 20px #FFCA28,
+    0 0 30px #FFCA28;
+  transition: all 0.3s ease;
+}
+
+.btn-neon:hover {
+  background: linear-gradient(90deg, #ff3300, #ff1100);
+  box-shadow:
+    0 0 15px #FFCA28,
+    0 0 30px #FFCA28,
+    0 0 45px #FFCA28;
+  transform: scale(1.05);
+}
+
+.btn-neon-outline {
+  position: relative;
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  color: #FFCA28;
+  border: 2px solid #FFCA28;
+  border-radius: 0.75rem;
+  background: transparent;
+  box-shadow: 0 0 10px #FFCA28;
+  transition: all 0.3s ease;
+}
+
+.btn-neon-outline:hover {
+  background-color: rgba(255, 17, 0, 0.1);
+  box-shadow:
+    0 0 15px #FFCA28,
+    0 0 30px #FFCA28;
+  transform: scale(1.05);
+}
+
+
+
+</style>
+
+<script>
+  
+  const images = [
+    './images/gorraocho.jpg',
+    './images/gorraonce.jpg',
+    './images/gorradoce.jpg',
+    './images/gorrauno.jpg'
+  ];
+  let current = 0;
+  const slider = document.getElementById('slider-background');
+
+  function changeBackground() {
+    slider.style.opacity = 0;
+    setTimeout(() => {
+      slider.style.backgroundImage = `url('${images[current]}')`;
+      slider.style.opacity = 1;
+      current = (current + 1) % images.length;
+    }, 500);
+  }
+
+  slider.style.backgroundImage = `url('${images[current]}')`;
+  current++;
+
+  setInterval(changeBackground, 6000);
+</script>
+
+
+
+</body>
+</html>
+
